@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/taskmanager';
+const mongoURI = process.env.MONGODB_URI || 'mongodb+srv://u2miz:idlJ541QYM5Q3QZX@cluster0.qykxagd.mongodb.net/<taskmanager>retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
